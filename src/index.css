@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+/*<FontAwesomeIcon icon={faSearch} className='s-icon' size={20}/>*/
+
 
 * {
   box-sizing: border-box;
@@ -73,6 +75,21 @@ h3{
 
 }
 
+.SearchBar .s-icon:hover{
+  position: absolute;
+  right:0;
+  top:0;
+  width:50px;
+  height:100%;
+  font-weight: 100px;
+  border-radius: 0 25px 25px 0;
+  background-color:red;
+  color:white;
+  padding-top:5px;
+  padding-bottom:5px;
+
+}
+
 .SearchBox{
   /*background-color: sandybrown;*/
   max-width: 600px;
@@ -95,4 +112,8 @@ h3{
   text-align: center;
   max-width: 100%;
   margin-top: 40px;
+}
+
+.clickableAwesomeFont {
+  cursor: pointer
 }

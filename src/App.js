@@ -1,6 +1,7 @@
 
 import SearchBox from './components/SearchBox'
 import Navbar from './components/Navbar'
+import { Button } from '@mui/material';
 
 const App = () => {
    
@@ -8,6 +9,7 @@ const App = () => {
     <div className="container">
       <Navbar/>
       <SearchBox/>
+      
 
     </div>
   )

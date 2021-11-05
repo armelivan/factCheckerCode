@@ -1,0 +1,32 @@
+{
+  "post":[
+    {
+      "id":1,
+      "type":1,
+      "message":"WebSite could not be reached"
+    },
+    {
+      "id":2,
+      "type":2,
+      "message":"No data values available"
+    },
+    {
+      "id":3,
+      "type":2,
+      "message":"Could not extract data from the website"
+    },
+    {
+      "id":4,
+      "type":2,
+      "message":"System-error"
+    },
+    {
+      "id":5,
+      "type":3,
+      "message":"Concluant"
+    }
+
+
+  ]
+  
+}
