@@ -1,16 +1,11 @@
 const { default: TextMessage } = require("./TextMessage")
 
-const Message = () => {
-  const m_values = {
-    'default':'Please enter your Url value',
-    'loading':'The value is being loaded',
-    'valueFound':'The value was founded',
-    'noValueFound': 'No value was found'
-  }
-  return (
+const Message = (props) => {
+ return (
     <div className='Message'>
       {/*<TextMessage title ={tt}/>*/}
-      <TextMessage />
+     {/*<h2>{props.text}</h2>*/}
+      <TextMessage text={props.text} />
     </div>
   )
 }

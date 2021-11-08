@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 
 
-const TextMessage = ({title}) => {
+const TextMessage = (props) => {
   return (
     <div className='TextMessage'>
-      <h1>{title}</h1>
+      <h1>{props.text}</h1>
     </div>
   )
 }

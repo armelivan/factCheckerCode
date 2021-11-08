@@ -1,6 +1,11 @@
 {
   "post":[
     {
+      "id":0,
+      "type":0,
+      "message":"No value Entered, Please enter a value..."
+    },
+    {
       "id":1,
       "type":1,
       "message":"WebSite could not be reached"
@@ -23,9 +28,13 @@
     {
       "id":5,
       "type":3,
-      "message":"Concluant"
+      "message":"value Found",
+      "score":2
     }
 
+
+  ],
+  "polls":[
 
   ]
   
